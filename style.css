@@ -1,4 +1,6 @@
-.threeColumn {
-	background-color: orange;
+.imageLinkGrid {
+	background-color: #999999;
 	padding:15px;
+	width:50%;
+	margin-top:25px;
 }
