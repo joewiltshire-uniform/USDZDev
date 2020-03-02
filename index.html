@@ -110,11 +110,28 @@
 				<h4>ARCore Test</h4>
 		<a href="intent://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Avocado/glTF/Avocado.gltf#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;"><img src ="avocado.jpg" width=200 class="rounded" >
 		</a>
-			<h4>Car Seat GLTF</h4>
-		<model-viewer ar alt="Car Seat." src="CarSeat.gltf"></model-viewer>
+			<h4>Car Seat GLTF + IOS</h4>
+		<model-viewer ar 
+		alt="Car Seat." 
+		src="CarSeat.gltf" 
+		background-color="#70BCD1"
+		environment-image="HDR.hdr"
+		shadow-intensity="1"
+		stage-light-intensity="3" environment-intensity="2"
+		ios-src = "CarSeat.usdz"
+		auto-rotate camera-controls>
+		</model-viewer>
 
-			<h4>Car Seat GLB</h4>
-		<model-viewer ar src="CarSeat.glb" alt="CarSeat" link = "https://uniform.net/" auto-rotate camera-controls></model-viewer>
+			<h4>Car Seat GLB + IOS</h4>
+		<model-viewer ar
+		src="CarSeat.glb"
+		alt="Car Seat"
+		link = "https://uniform.net/"
+		background-color="#70BCD1"
+		shadow-intensity="1"
+		ios-src = "CarSeat.usdz"
+		auto-rotate camera-controls>
+		</model-viewer>
 
 	</div>
 	</div>
