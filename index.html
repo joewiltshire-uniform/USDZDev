@@ -1,3 +1,8 @@
+<!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -105,11 +110,11 @@
 				<h4>ARCore Test</h4>
 		<a href="intent://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Avocado/glTF/Avocado.gltf#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;"><img src ="avocado.jpg" width=200 class="rounded" >
 		</a>
+			<h4>Car Seat GLTF</h4>
+		<model-viewer ar alt="Car Seat." src="CarSeat.gltf"></model-viewer>
 
-			<h4>Car Seat</h4>
-			<model-viewer ar alt="Car Seat." src="CarSeat.glb"></model-viewer>
-
-
+			<h4>Car Seat GLB</h4>
+		<model-viewer src="CarSeat.glb" alt="CarSeat" auto-rotate camera-controls></model-viewer>
 
 	</div>
 	</div>
